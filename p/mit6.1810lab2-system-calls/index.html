@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=" 【写在前面】\n这是2023-2024春季学期操作系统课程有关xv6 lab部分的实验报告，参考了很多网络资源，解释也不一定正确，仅作为留档，参考需谨慎。\n">
+<title>[mit6.1810]Lab2: system calls</title>
+
+<link rel='canonical' href='https://chenby99.github.io/p/mit6.1810lab2-system-calls/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="[mit6.1810]Lab2: system calls">
+<meta property='og:description' content=" 【写在前面】\n这是2023-2024春季学期操作系统课程有关xv6 lab部分的实验报告，参考了很多网络资源，解释也不一定正确，仅作为留档，参考需谨慎。\n">
+<meta property='og:url' content='https://chenby99.github.io/p/mit6.1810lab2-system-calls/'>
+<meta property='og:site_name' content='Bonnie'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-11T20:08:07&#43;08:00'/><meta property='article:modified_time' content='2025-07-11T20:08:07&#43;08:00'/>
+<meta name="twitter:title" content="[mit6.1810]Lab2: system calls">
+<meta name="twitter:description" content=" 【写在前面】\n这是2023-2024春季学期操作系统课程有关xv6 lab部分的实验报告，参考了很多网络资源，解释也不一定正确，仅作为留档，参考需谨慎。\n">
+    <link rel="shortcut icon" href="/favicon2.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu_b857326173e6a0a1.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Bonnie</a></h1>
+            <h2 class="site-description">妳是流动的</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/chenby99'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#using-gdb">Using gdb</a></li>
+    <li><a href="#system-call-tracing">System call tracing</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/xv6-lab/" >
+                Xv6 Lab
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/mit6.1810lab2-system-calls/">[mit6.1810]Lab2: system calls</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jul 11, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 3 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>【写在前面】</p>
+<p>这是2023-2024春季学期操作系统课程有关xv6 lab部分的实验报告，参考了很多网络资源，解释也不一定正确，仅作为留档，参考需谨慎。</p>
+<p>Lab 地址：<a class="link" href="https://pdos.csail.mit.edu/6.1810/2023/xv6.html"  target="_blank" rel="noopener"
+    >6.1810 / Fall 2023</a></p>
+<p>参考：</p>
+<p><a class="link" href="https://blog.csdn.net/zzy980511/category_11740137.html"  target="_blank" rel="noopener"
+    >MIT 6.S081_Zheyuan Zou的博客-CSDN博客</a></p>
+<p><a class="link" href="https://www.bilibili.com/video/BV1gf9GY8Eyz/?spm_id_from=333.1387.homepage.video_card.click&amp;vd_source=eb10175b446fe7739754f18d9bb58a40"  target="_blank" rel="noopener"
+    >【露说xv6】Lab2-Basic and Optional（985男大的初学案例分享）_哔哩哔哩_bilibili</a></p></blockquote>
+<h2 id="using-gdb">Using gdb
+</h2><p><img src="/index.assets%5cmake_qemu_gdb.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="/index.assets%5cmultiarch.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="/index.assets%5cusertrap.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><strong>Q1</strong>: Looking at the backtrace output, which function called <code>syscall</code>?</p>
+<p><strong>A1:</strong> <code>usertrap()</code>调用了<code>syscall</code></p>
+<p><img src="/index.assets%5ca7_sstatus.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><strong>Q2</strong>: What is the value of <code>p-&gt;trapframe-&gt;a7</code> and what does that  value represent?</p>
+<p><strong>A2</strong>: <code>p /x p-&gt;trapframe-&gt;a7 = 0x7</code>
+由此可知，在<code>syscall.h</code>中找到<code>#define SYS_exec 7</code>，在 <code>user/initcode.S</code>查看：xv6 启动的第一个用户程序为<code>SYS_exec</code></p>
+<p><strong>Q3</strong>: What was the previous mode that the CPU was in?</p>
+<p><strong>A3</strong>: <code>sstatus = 0x200000022</code>，将sstatus转化为二进制表示，其中第八位为0（0表示用户态，1表示核心态），所以CPU处于用户态。</p>
+<p><img src="/index.assets%5cnum.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<img src="index.assets\kerneltrap.jpg" alt="kerneltrap"  />
+<p><img src="/index.assets%5clw.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><strong>Q4</strong>: Write down the assembly instruction the kernel is panicing at. Which register corresponds to the variable <code>num</code>?</p>
+<p><strong>A4</strong>:instruction: <code>lw a3,0(zero)#0&lt;entry-0x80000000&gt;</code>；register: <code>a3</code></p>
+<img src="index.assets\0-13.jpg" alt="0-13" style="zoom:50%;" />
+<p><strong>Q5</strong>: Why does the kernel crash? Hint: look at figure 3-3 in the text;  is address 0 mapped in the kernel address space?  Is that confirmed by the value in <code>scause</code> above?</p>
+<p><strong>A5:</strong> 访问0地址时超出列表出错；0地址不会被映射到空间；由输出<code>scause 0x000000000000000d</code>可知，对应RISC-V表中0/13，显示 “Load page fault&quot; 表示加载列表出现错误，相符。</p>
+<img src="index.assets\p_name_pid.jpg" alt="p_name_pid" style="zoom:50%;" />
+<p><strong>Q6</strong>: What is the name of the binary that was running when the kernel paniced?  What is its process id (<code>pid</code>)?</p>
+<p><strong>A6</strong>: name of the binary: <code>initcode 000\000\000\000\000\000\000'</code>；<code>pid = 1</code></p>
+<h2 id="system-call-tracing">System call tracing
+</h2><ol>
+<li>
+<p>添加一个系统调用：</p>
+<p>在<code>user.h</code>中添加：<code>int trace(int);</code></p>
+<p>在<code>usys.pl</code>中添加：<code>entry(&quot;trace&quot;);</code></p>
+<p>在<code>syscall.h</code>中添加：<code>#define SYS_trace  23</code></p>
+<p>在<code>syscall.c</code>中添加函数声明<code>extern uint64 sys_trace(void);</code>和函数列表<code>[SYS_trace]   sys_trace,</code></p>
+</li>
+<li>
+<p>加入一个表示用于进程追踪的掩码</p>
+<p>在<code>proc.c</code>中新增变量声明<code>int traceMask;</code>用于接受参数mask。在生成<code>proc</code>时会调用函数<code>allocproc</code>，严谨地在该函数中初始化变量<code>p-&gt;traceMask=0;</code></p>
+</li>
+<li>
+<p>在sysproc.c的文件中真正地实现sys_trace的逻辑</p>
+<p>在<code>sysproc.c</code>中添加函数定义：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="n">uint64</span>
+</span></span><span class="line"><span class="cl"><span class="nf">sys_trace</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">flag</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">argint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">flag</span><span class="p">);</span> <span class="c1">// 将trapframe-&gt;a0读入（详细查看argraw())
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">struct</span> <span class="n">proc</span><span class="o">*</span> <span class="n">p</span><span class="o">=</span><span class="nf">myproc</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="n">p</span><span class="o">-&gt;</span><span class="n">traceMask</span><span class="o">=</span><span class="n">flag</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>在函数<code>fork()</code>中添加<code>np-&gt;traceMask = p-&gt;traceMask;</code>  将参数复制到子进程中</p>
+</li>
+<li>
+<p>在<code>syscall.c</code>中还需要加一个系统调用号到名称的映射表：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="k">static</span> <span class="kt">char</span><span class="o">*</span> <span class="n">SyscallName</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_fork</span><span class="p">]</span>    <span class="s">&#34;fork&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_exit</span><span class="p">]</span>    <span class="s">&#34;exit&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_wait</span><span class="p">]</span>    <span class="s">&#34;wait&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_pipe</span><span class="p">]</span>    <span class="s">&#34;pipe&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_read</span><span class="p">]</span>    <span class="s">&#34;read&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_kill</span><span class="p">]</span>    <span class="s">&#34;kill&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_exec</span><span class="p">]</span>    <span class="s">&#34;exec&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_fstat</span><span class="p">]</span>   <span class="s">&#34;fstat&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_chdir</span><span class="p">]</span>   <span class="s">&#34;chdir&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_dup</span><span class="p">]</span>     <span class="s">&#34;dup&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_getpid</span><span class="p">]</span>  <span class="s">&#34;getpid&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_sbrk</span><span class="p">]</span>    <span class="s">&#34;sbrk&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_sleep</span><span class="p">]</span>   <span class="s">&#34;sleep&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_uptime</span><span class="p">]</span>  <span class="s">&#34;uptime&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_open</span><span class="p">]</span>    <span class="s">&#34;open&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_write</span><span class="p">]</span>   <span class="s">&#34;write&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_mknod</span><span class="p">]</span>   <span class="s">&#34;mknod&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_unlink</span><span class="p">]</span>  <span class="s">&#34;unlink&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_link</span><span class="p">]</span>    <span class="s">&#34;link&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_mkdir</span><span class="p">]</span>   <span class="s">&#34;mkdir&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_close</span><span class="p">]</span>   <span class="s">&#34;close&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="n">SYS_trace</span><span class="p">]</span>   <span class="s">&#34;trace&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>测试结果</p>
+<p><img src="/index.assets%5ctest1.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="/index.assets%5ctest2.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>&hellip;</p>
+<p><img src="/index.assets%5ctest3.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p><img src="/index.assets%5ctrace.jpg"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+</li>
+</ol>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/mit6.1810lab9-mmap/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">[mit6.1810]Lab9: mmap</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/mit6.1810lab7-lock/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">[mit6.1810]Lab7: Lock</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/mit6.1810lab4-traps/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">[mit6.1810]Lab4: traps</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/mit6.1810lab3-page-tables/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">[mit6.1810]Lab3: page tables</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/mit6.1810lab1-utilities/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">[mit6.1810]Lab1: Utilities</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 BONNIE
+    </section>
+    
+    <section class="powerby">
+        
+            2484996991@qq.com <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

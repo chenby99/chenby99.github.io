@@ -1,13 +1,224 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>智科选课指南 on Bonnie</title>
-        <link>https://chenby99.github.io/categories/%E6%99%BA%E7%A7%91%E9%80%89%E8%AF%BE%E6%8C%87%E5%8D%97/</link>
-        <description>Recent content in 智科选课指南 on Bonnie</description>
+        <title>智科课程指南 on Bonnie</title>
+        <link>https://chenby99.github.io/categories/%E6%99%BA%E7%A7%91%E8%AF%BE%E7%A8%8B%E6%8C%87%E5%8D%97/</link>
+        <description>Recent content in 智科课程指南 on Bonnie</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>BONNIE</copyright>
-        <lastBuildDate>Fri, 11 Jul 2025 17:31:15 +0800</lastBuildDate><atom:link href="https://chenby99.github.io/categories/%E6%99%BA%E7%A7%91%E9%80%89%E8%AF%BE%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 11 Jul 2025 22:09:26 +0800</lastBuildDate><atom:link href="https://chenby99.github.io/categories/%E6%99%BA%E7%A7%91%E8%AF%BE%E7%A8%8B%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>大二秋季课程tips</title>
+        <link>https://chenby99.github.io/p/%E5%A4%A7%E4%BA%8C%E7%A7%8B%E5%AD%A3%E8%AF%BE%E7%A8%8Btips/</link>
+        <pubDate>Fri, 11 Jul 2025 22:09:26 +0800</pubDate>
+        
+        <guid>https://chenby99.github.io/p/%E5%A4%A7%E4%BA%8C%E7%A7%8B%E5%AD%A3%E8%AF%BE%E7%A8%8Btips/</guid>
+        <description>&lt;p&gt;&lt;strong&gt;【写在最前面】&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;仅以2023级智科培养方案和博主个人主观感受以及向周边同学了解的情况撰写，智工院近几年培养方案改动较多，仅供参考。博主不是成绩名列前茅的大佬，对课程的学习理解也不完全透彻，如果有评价建议写得与实际不符也请多多担待！&lt;/p&gt;
+&lt;p&gt;如果有补充可以写在&lt;a class=&#34;link&#34; href=&#34;https://github.com/chenby99&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chenby99&lt;/a&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/chenby99/chenby99.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chenby99.github.io&lt;/a&gt;的&lt;code&gt;issue&lt;/code&gt;中或者通过网页页脚的邮箱联系我，希望大家友好交流~~&lt;/p&gt;
+&lt;p&gt;（已经是上个学期的事情了，博主很多都不太记得了不好意思&amp;hellip;）&lt;/p&gt;
+&lt;h2 id=&#34;微机原理&#34;&gt;微机原理
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;必修/考试课/2.5学分/平时40% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;微机原理与接口技术（第3版）/ 牟琦，清华大学出版社，2018年12月&lt;/p&gt;
+&lt;h3 id=&#34;授课教师&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;何涛：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;按照ppt教学，上完课发ppt，讲到哪里发到哪里。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;认真负责，讲解清晰，建议听课。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业与考核&#34;&gt;作业与考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;实验课有几次实验报告，只需要提交工程文件和运行结果，内容简单可以在实验课上完成。&lt;/li&gt;
+&lt;li&gt;整个学期有三次课堂小测，难度适中，老师会提前通知。&lt;/li&gt;
+&lt;li&gt;期末考试：选择、代码填空、常用芯片接口接线等题型（记不太清了）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;课程分为理论课与实验课：理论课是重点，实验课用于通过实操辅助理解巩固，不做考核要求。理论课内容为参考教材1、2、3、4、5、6、8（只需要掌握8255和8253）章节，其中第2章概念较多，但考查较少。&lt;/p&gt;
+&lt;p&gt;一开始学可能会因为专有名词过多、对计算机底层系统陌生而感到难以理解知识点，这是正常的，等到期末复习时再回头过一遍就会通透很多了。每个章节都有部分知识点需要记忆（如寄存器名称、标志位、中断分类、指令等）。&lt;/p&gt;
+&lt;p&gt;期末考试题与ppt例题强相关，建议复习时完全掌握ppt中所有例题。&lt;/p&gt;
+&lt;h2 id=&#34;机器学习&#34;&gt;机器学习
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;必修/考试课/3学分/平时40% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-1&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;机器学习方法 / 李航，清华大学出版社，2022&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-1&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;彭卫文：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;认真负责，讲解仔细清晰，建议听课。&lt;/li&gt;
+&lt;li&gt;上课会写板书，课前有上节课知识复习，他特别担心学生学不会的样子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业与考核-1&#34;&gt;作业与考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;作业：实验课有几次实验报告，难度适中，给分较高。&lt;/li&gt;
+&lt;li&gt;期末考试：问答题、推导题、计算题。如果你问答推导写很多很多字，时间会比较紧张（博主就没写完计算题，但是分也不低）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-1&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;老师每一章都会板书算法的整体框架（数据-模型-策略-算法），做笔记做笔记做笔记，写一遍会比看ppt理解更多。自己能推导写出每种模型的框架，期末考试推导题就问题不大。&lt;/p&gt;
+&lt;p&gt;计算题考点：感知机-梯度下降算法、朴素贝叶斯、决策树、AdaBoost、多层前馈神经网络（正向+反向）&amp;hellip;其实你们自己学完了也大概清楚哪些会考了，主要就是把课上的例题都掌握就行。&lt;/p&gt;
+&lt;p&gt;问答题主要考察第1章概念性的知识点，需要记忆背诵。&lt;/p&gt;
+&lt;p&gt;网课：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1No4y1o7ac/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【合集】十分钟 机器学习 系列视频 《统计学习方法》——监督学习篇_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;数据结构与算法&#34;&gt;数据结构与算法
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;必修/考试课/4学分/平时25% 期中25% 期末考试50%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-2&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;数据结构（C语言）/ 严蔚敏，清华大学出版社&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-2&#34;&gt;授课教师
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;王军波（前半学期）
+&lt;ul&gt;
+&lt;li&gt;讲解清晰&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;金恺（后半学期）
+&lt;ul&gt;
+&lt;li&gt;有时候讲课会有磕绊&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关于考核&#34;&gt;关于考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;实验课需要每节课都提交代码作为签到，会跑测试程序发布分数，但不会计入总评。&lt;/li&gt;
+&lt;li&gt;实验课有三次机测（4%+5%+6%），基本都是平时做过的题目，基本都会给代码模板，好好复习就能满分。&lt;/li&gt;
+&lt;li&gt;2次理论作业，每次作业有1道Bonus。&lt;/li&gt;
+&lt;li&gt;一次随堂小测&lt;/li&gt;
+&lt;li&gt;期中考试&lt;/li&gt;
+&lt;li&gt;期末考试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-2&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;建议好好听课，掌握ppt里的内容。&lt;/p&gt;
+&lt;p&gt;虽然课上提交的代码不会计入总评，但实验课也要认真对待，要不每次机测前都要花很长时间复习。有追求的同学可以尝试不要用模板。&lt;/p&gt;
+&lt;p&gt;网络资源：b站有很多用动画讲解算法的视频，可以看看辅助理解算法&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/25488437/lists/1830481?type=season&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LetsLearning的个人空间-LetsLearning个人主页-哔哩哔哩视频&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;工程数学&#34;&gt;工程数学
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;必修/考试课/2学分/平时40% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-3&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;工程数学复变函数（第四版）/ 西安交通大学高等数学教研室，高等教育出版社&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-3&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;李晓东：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;认真负责，讲解细致，讲课有时候会开玩笑讲故事&lt;/li&gt;
+&lt;li&gt;点名答到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关于考核-1&#34;&gt;关于考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;每个章节有作业来自教材课后题，难度适中&lt;/li&gt;
+&lt;li&gt;期末考试：应该全是大题（不太记得了）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-3&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;只学习一到五章内容，不是很多。教材写的不错，但ppt的很多例题是书本没有的。&lt;/p&gt;
+&lt;p&gt;数学科目学习方法大差不差，概念公式理解了之后多刷题就好了。&lt;/p&gt;
+&lt;p&gt;网课：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV13K4y1h7wC/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;3小时根本讲不完《复变函数与积分变换》/纯板书/《复变》《工程数学》/不挂科/考前抱佛脚/考前突击/傅里叶变换/拉普拉斯变换/哈工大学长_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;离散数学&#34;&gt;离散数学
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;必修/考试课/2学分/平时30% 期中20% 期末考试50%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-4&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;朱彬老师上课会发部分英文教材电子版&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-4&#34;&gt;授课教师
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;朱彬（前半学期）
+&lt;ul&gt;
+&lt;li&gt;讲课很流畅，知识点讲解清楚，语气比较平稳，讲着讲着可能就会远离麦克风，教室（东1-101）又很大后排容易听不清楚&lt;/li&gt;
+&lt;li&gt;ppt课前发，写的很详细，和线性代数一个风格&lt;/li&gt;
+&lt;li&gt;博主很喜欢朱老师的讲课风格，但是听他的课很容易睡着。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;金恺（后半学期）
+&lt;ul&gt;
+&lt;li&gt;有时候讲课会有磕绊&lt;/li&gt;
+&lt;li&gt;ppt比较简介，不听课有可能看不懂&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关于考核-2&#34;&gt;关于考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;前半学期每小节一次作业，后半学期4次作业（每次都有思考题）。后半学期作业难度更大一些。&lt;/li&gt;
+&lt;li&gt;期中考试：前半学期内容&lt;/li&gt;
+&lt;li&gt;期末考试：与后半学期ppt例题和作业题类似。期末考试中会选择一题作业思考题来压轴，提高区分度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-4&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;前半学期类似初等数论，后半学期偏向算法基础。前后老师讲课风格差异较大。建议好好听课。&lt;/p&gt;
+&lt;p&gt;后半学期作业会打分计入平时成绩，建议认真完成。&lt;/p&gt;
+&lt;p&gt;跟不上可以按最小知识点名称搜索网络资源，直接搜索“离散数学”有用资源较少。&lt;/p&gt;
+&lt;h2 id=&#34;信号与系统&#34;&gt;信号与系统
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考试课/2学分/平时30% 期中10% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-5&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;信号与系统（第三版）上册 / 郑君里 应启珩 杨为理，高等教育出版社&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-5&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;邱斌斌：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;课前后发ppt，讲到哪里发到哪里&lt;/li&gt;
+&lt;li&gt;23级：不考勤&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关于考核-3&#34;&gt;关于考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;平时每章节作业来自教材课后题，难度适中。&lt;/li&gt;
+&lt;li&gt;期中考试&lt;/li&gt;
+&lt;li&gt;期末考试：全是大题，除了计算也有考察概念&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-5&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;只学习教材前三章内容，第三章为课程重点（期末主要考查）。&lt;/p&gt;
+&lt;p&gt;网络资源：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV17r4y1e74i/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;信号与系统考研课程_哔哩哔哩_bilibili&lt;/a&gt;：讲得非常好&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1fy4y1K7xY/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;信号与系统课后题郑君里第三版讲解①（1.1—8.15）_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;无人系统导论&#34;&gt;无人系统导论
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考查课/2学分&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;授课教师-6&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;王涛&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;人很好，讲课认真生动，不过没什么人听课。&lt;/li&gt;
+&lt;li&gt;有时会点名回答问题，作为签到。&lt;/li&gt;
+&lt;li&gt;允许学生做自己的事情不听课，但是希望大家准时到课，不要迟到。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业考核&#34;&gt;作业考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;部分章节ppt后会有问答形式的课后题，在ppt中可以找到答案。老师上课有时候会提及哪一讲课后题的某些题目不需要做，注意留意。&lt;/li&gt;
+&lt;li&gt;期末大作业开学时布置，题目二选一：1.设计思考类论文，2.鼓励动手实践完成一些仿真实验。要求比较宽泛，有问题可以找老师沟通。课后题和期末报告ddl都是期末考试后，但希望能通过作业有所收获的同学，建议尽早开始做。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;机械设计&#34;&gt;机械设计
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考查课/2学分&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;文 / Veyme 2025.7&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-6&#34;&gt;参考教材
+&lt;/h3&gt;&lt;h3 id=&#34;授课教师-7&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;彭卫文：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;认真负责，讲解仔细清晰，课前会发ppt。&lt;/li&gt;
+&lt;li&gt;课前有上节课知识复习，他特别担心学生学不会的样子。&lt;/li&gt;
+&lt;li&gt;会&amp;quot;批斗&amp;quot;上课睡觉和迟到的同学。&lt;/li&gt;
+&lt;li&gt;随机点名签到，会随机小测写题，需要上交。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业与考核-2&#34;&gt;作业与考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;每章结束都有课后作业，一共五次，占比30%。&lt;/li&gt;
+&lt;li&gt;期末是大作业60%，可以类比做时间充裕的开卷考试，早上九点发题目，当天收，不过一共三道题，时间比较充裕，考察的是一学期学过的知识，让分析机械设计，画图之类。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-6&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;建议听课，每章作业要搞明白。&lt;/p&gt;
+&lt;p&gt;网课：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1R4HnehE4m/?spm_id_from=333.788.videopod.episodes&amp;amp;vd_source=7c9f4a5d469cfca935ec3c6e19f33489&amp;amp;p=3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;第一章 平面机构的自由度_哔哩哔哩_bilibili&lt;/a&gt;：网课ppt和老师用的ppt大部分相同&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>大二春季课程tips</title>
         <link>https://chenby99.github.io/p/%E5%A4%A7%E4%BA%8C%E6%98%A5%E5%AD%A3%E8%AF%BE%E7%A8%8Btips/</link>
         <pubDate>Fri, 11 Jul 2025 17:31:15 +0800</pubDate>

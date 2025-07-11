@@ -13,16 +13,273 @@
         <pubDate>Fri, 11 Jul 2025 17:31:15 +0800</pubDate>
         
         <guid>https://chenby99.github.io/p/%E5%A4%A7%E4%BA%8C%E6%98%A5%E5%AD%A3%E8%AF%BE%E7%A8%8Btips/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>TestBlog</title>
-        <link>https://chenby99.github.io/p/testblog/</link>
-        <pubDate>Thu, 10 Jul 2025 20:18:35 +0800</pubDate>
-        
-        <guid>https://chenby99.github.io/p/testblog/</guid>
-        <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!
-&lt;/h1&gt;</description>
+        <description>&lt;p&gt;&lt;strong&gt;【写在最前面】&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;仅以2023级智科培养方案和博主个人主观感受以及向周边同学了解的情况撰写，智工院近几年培养方案改动较多，仅供参考。博主不是成绩名列前茅的大佬，对课程的学习理解也不完全透彻，如果有评价建议写得与实际不符也请多多担待！&lt;/p&gt;
+&lt;p&gt;如果有补充可以写在评论，希望大家友好交流~~&lt;/p&gt;
+&lt;h2 id=&#34;自动控制原理&#34;&gt;自动控制原理
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;必修/考试课/3学分/平时40% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;自动控制原理(第七版）/ 胡寿松，科学出版社，2019年2月，ISBN：9787030572912&lt;/p&gt;
+&lt;h3 id=&#34;授课教师&#34;&gt;授课教师
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;李雪芳：
+&lt;ul&gt;
+&lt;li&gt;按ppt教学，课前会发完整一章的ppt，作业在末尾可以提前完成。&lt;/li&gt;
+&lt;li&gt;语调平缓，讲课细致，选课时人数最多&lt;/li&gt;
+&lt;li&gt;有签到点名，会数人头，不可代签&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;李中华：
+&lt;ul&gt;
+&lt;li&gt;按ppt教学，课前会发完整一章的ppt，作业在末尾可以提前完成。&lt;/li&gt;
+&lt;li&gt;前几章每章结束后课堂上有堂练；课堂上会点同学回答问题或上台写题（答不出可以说不会）&lt;/li&gt;
+&lt;li&gt;期中作业组队，给分高&lt;/li&gt;
+&lt;li&gt;有签到点名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;关于考核&#34;&gt;关于考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;期中布置大作业，内容是matlab仿真pid控制，完成实验报告&lt;/li&gt;
+&lt;li&gt;期末考试：5题选择（2分*5），9题计算题（10分*9）&lt;/li&gt;
+&lt;li&gt;2023级：可以携带计算器；考试时间比较紧张，前几道基础计算题过程繁琐；题型与作业类似&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;比较重要的前置知识：复变函数-拉普拉斯变换（传递函数核心）、电路基础（电路数学模型建立&amp;lt;&amp;ndash;考试需掌握）、复变函数-复数计算（频域分析）。老师上课基本细讲不会计算过程，建议课后时自己推导计算一次例题。&lt;/p&gt;
+&lt;p&gt;ppt基本依据参考教材，教材会写得更详细。&lt;/p&gt;
+&lt;p&gt;作业：书本课后练习题，可在网络找到答案。整个学期有一两道练习需要使用软件辅助计算。建议在作业时熟悉计算器使用。&lt;/p&gt;
+&lt;p&gt;网课：自动控制理论作为考研科目，知识体系相对成熟，网络资源也很丰富。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/443689502/lists/1784905&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;卢老爷带你学系列 | 深入浅出《自动控制原理》（已完结）- bilibili&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;智能机器人技术&#34;&gt;智能机器人技术
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;必修/考试课/2学分/平时40% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-1&#34;&gt;参考教材
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;机器人学：基础理论与应用实践 / 徐文福，哈尔滨工业大学出版社，2020年5月，ISBN：9787560387369&lt;/li&gt;
+&lt;li&gt;李孟棠老师用的参考教材会在群里发英文/中文翻译电子版，仅作为参考教材，上课不使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;授课教师-1&#34;&gt;授课教师
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;彭键清（前半学期）：
+&lt;ul&gt;
+&lt;li&gt;按照ppt教学，课后发ppt&lt;/li&gt;
+&lt;li&gt;由于内容多学时少所以讲得很快，基本看不完一页ppt就会过到下一页，建议看书自学（不过也有同学在集市吐槽过书编的也一般）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;李孟棠（后半学期）：
+&lt;ul&gt;
+&lt;li&gt;按照ppt教学，课前发ppt&lt;/li&gt;
+&lt;li&gt;比较认真讲课的老师，可以听课，学习内容之间的耦合关系比较强，前期概念搞不清楚后面比较难听懂。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业与考试&#34;&gt;作业与考试
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;前半学期三次作业：需要软件辅助计算，建议学习使用matlab机器人工具箱。第三次作业难度较大。&lt;/li&gt;
+&lt;li&gt;后半学期三次作业（9、10、11章）：难度适中，与课堂内容强相关，与期末考试强相关。&lt;/li&gt;
+&lt;li&gt;期中考试：7题计算题，时间充裕，有3~4题是题型相同的求DH参数表&lt;/li&gt;
+&lt;li&gt;期末考试：选择10题，计算4题，论述题（概念性）3~4题。期末考试主要考察后半学期内容，彭老师只会出1题论述题。23级计算题题型相较作业稍有灵活改动，除了9-11章的计算以外还考了12章的A*图搜索算法。期末考试比期中考试难度大，建议好好准备，ppt上有的东西全都要掌握。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-1&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;两位老师分前后半学期授课，从两种角度讲解机器人学相关知识。&lt;/p&gt;
+&lt;p&gt;上半学期有部分知识较难理解，因为老师上课会快速略过非常复杂的推导内容，但实际考核要求并不高。&lt;/p&gt;
+&lt;p&gt;下半学期建议好好听课，需要掌握概念大致推导和应用，不能只会做计算题。只要把ppt上的内容学懂，考试问题不大。&lt;/p&gt;
+&lt;p&gt;网课：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1oa4y1v7TY/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【机械臂运动学教程】机械臂+旋转矩阵+变换矩阵+DH+逆解+轨迹规划+机器人+教程_哔哩哔哩_bilibili&lt;/a&gt;：上半学期可以参考学习，与课程教学内容不完全相同&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1KV411Z7sC/?spm_id_from=333.337.search-card.all.click&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【中英字幕】现代机器人学 | Modern Robotics_哔哩哔哩_bilibili&lt;/a&gt;：下半学期教材对应课程，视频较短，可以辅助理解概念&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;计算机网络&#34;&gt;计算机网络
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考试课/2学分/平时40% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-2&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;计算机网络：自顶向下方法(原书第7版) / James，F.Kurose，Keith，W.Ross  著，机械工业出版社，ISBN：9787111599715&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-2&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;古博：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按照ppt讲解，课后发ppt，讲到哪里发到哪里。&lt;/li&gt;
+&lt;li&gt;理论课没有考勤，实验课签到&lt;/li&gt;
+&lt;li&gt;待补充&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业与考试-1&#34;&gt;作业与考试
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;第一章有唯一一次概念问答题作业，很简单。&lt;/li&gt;
+&lt;li&gt;两次实验报告，部分需要两台主机建立连接的实验使用实验室电脑完成会比较方便，注意实验课时间安排。&lt;/li&gt;
+&lt;li&gt;论文导读小组pre：8-10人小组，两节课汇报。一个组只有10分钟，到时间直接叫停，汇报人注意时间把控。&lt;/li&gt;
+&lt;li&gt;期末考试：选择题20题（3分*20）问答题5题。问答题中规中矩，博主觉得有些选择题老师是梦到哪道出哪道，甚至考场上出现重复选项和重复的题目。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-2&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;整体自顶向下学习框架清晰，第一章内容绪论对整体做大致介绍，后面章节一一展开，知识连贯，但细碎的概念很多。不建议死记硬背，理解了再记忆会容易很多。&lt;/p&gt;
+&lt;p&gt;教材文字较多较繁琐。&lt;/p&gt;
+&lt;p&gt;网课推荐：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1JV411t7ow/?spm_id_from=333.1387.favlist.content.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;中科大郑烇、杨坚全套《计算机网络（自顶向下方法 第7版，James F.Kurose，Keith W.Ross）》课程_哔哩哔哩_bilibili&lt;/a&gt;：讲得特别好的老师，刚开始可能有点难听进去，但越到后面就会越通透，只要听懂课 知识就会印在你的脑子里。视频课时较长，老师讲专有名词主要使用英文，有一些章节内容会与本课程有差异，自行取舍。&lt;/p&gt;
+&lt;h2 id=&#34;图像处理&#34;&gt;图像处理
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考试课/2学分/平时40% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-3&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;数字图像处理（第四版）/ RafaGonzalez,  Richard E. Woods著，阮秋琦等译，电子工业出版社，2020年5月，ISBN：9787121377471&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-3&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;高陈强：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;听劝的老师，23级取消了大作业&lt;/li&gt;
+&lt;li&gt;按照ppt讲课，课前发ppt&lt;/li&gt;
+&lt;li&gt;平时上课会说“这里考了你们要懂”，期末不划重点&lt;/li&gt;
+&lt;li&gt;考勤会事先通知，课间扫码签到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业与考试-2&#34;&gt;作业与考试
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;部分章节有课后作业，来自书本课后题和老师自己出的题。建议认真对待平时作业，正确率与平时成绩强关联。&lt;/li&gt;
+&lt;li&gt;期末考试：选择*10（20分），简答*5（40分），计算*3（30分），综合*1（10分）。需要计算器。考试难度适中，比较复杂的公式没有考察，简答题考察概念，计算题与作业计算题型相同，综合题为场景应用，作业也有类似题。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-3&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;内容多，细碎概念多，部分章节无连贯性。建议听课加自己看书理解，避免期末临时死记硬背。教材写的不错，比较容易读懂，但文字量大，ppt基本都是教材内容摘出。&lt;/p&gt;
+&lt;p&gt;网课：&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/15895029/lists/3515661?type=season&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;jiaoyiping的个人空间-jiaoyiping个人主页-哔哩哔哩视频&lt;/a&gt;：视频较短，讲解清晰，可以作为预习对知识有大致了解。但不够深入，内容不全。&lt;/p&gt;
+&lt;h2 id=&#34;数字逻辑设计&#34;&gt;数字逻辑设计
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考试课/2学分/平时40% 期末考试60%&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-4&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;数字电子技术基础（第六版） / 阎石，高等教育出版社，2016年4月，ISBN：978-7-04-044493-3&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-4&#34;&gt;授课教师
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;杨芳芳
+&lt;ul&gt;
+&lt;li&gt;课后讲完一整章才发ppt，作业在ppt末尾&lt;/li&gt;
+&lt;li&gt;讲课容易卡壳，讲题不算清晰，有时候会讲错&lt;/li&gt;
+&lt;li&gt;课前签到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;魏亮亮
+&lt;ul&gt;
+&lt;li&gt;课前发ppt，作业在ppt末尾&lt;/li&gt;
+&lt;li&gt;讲课细致认真&lt;/li&gt;
+&lt;li&gt;会随机点名签到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业与考试-3&#34;&gt;作业与考试
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;每章布置作业来自书本课后题，难度适中。&lt;/li&gt;
+&lt;li&gt;期中实验报告：内容是数码管和点阵的（Proteus）仿真显示学号和学校名称实验，提交实验报告和工程文件。杨老师要求显示“中山大学”，魏老师只要求显示“中大“。&lt;/li&gt;
+&lt;li&gt;期末考试：7道计算题，每章考察1题，题型与作业题相同。时间较紧张。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-4&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;数电理解的难点主要在于元器件的内部实验和静/动态特性，但是实际上考试基本不会考察这一块（因为题型只有计算题且和作业类似）。但如果想更好的理解并且真正掌握数电，还是建议认真学习这部分知识。因为没有模电基础，在门电路章节可能一开始会有些难以理解，可以找一些视频讲解辅助理解。&lt;/p&gt;
+&lt;p&gt;教材写的不错，但老师ppt上有部分例题教材没有。&lt;/p&gt;
+&lt;p&gt;网课：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV18Z4y1Q7iq/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;数字电子技术基础 1.1 常用数制及数制的转换_哔哩哔哩_bilibili&lt;/a&gt;：讲得很好的老师&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1A3411z7Mf/?spm_id_from=333.337.search-card.all.click&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《数字电子技术/数字逻辑电路》上集&amp;ndash; 零基础、保姆级_哔哩哔哩_bilibili&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;数字逻辑设计实验&#34;&gt;数字逻辑设计实验
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考查课/2学分&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-5&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;数字电路与逻辑设计实验，中山大学公共实验教学中心，2020年10月，自编教材&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-5&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;魏亮亮：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;课前签到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业与考试-4&#34;&gt;作业与考试
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;每节课提交一次实验报告，类似电路基础实验&lt;/li&gt;
+&lt;li&gt;最后一节课为考核，手写实验报告，不要求仿真，完成后给老师检查实验箱接线和示波器结果。内容为做过的实验稍有改动，难度简单。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-5&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;每次实验分为Proteus仿真和实验箱两个部分，分别完成基本相同的实验内容。&lt;/p&gt;
+&lt;p&gt;一开始几节课会给出仿真接线图，后来就不给了。对于理论课有好好学的同学来说，实验内容都不难，而且可以帮助巩固理论知识。&lt;/p&gt;
+&lt;h2 id=&#34;认知科学基础&#34;&gt;认知科学基础
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考查课/2学分&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-6&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;认知科学导论 / 蔡署山，人民出版社，2021年11月，ISBN：9787010236308&lt;/p&gt;
+&lt;p&gt;（教材没有使用过）&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-6&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;王涛&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;人很好，讲课认真生动，不过没什么人听课。&lt;/li&gt;
+&lt;li&gt;有时会点名回答问题，作为签到。&lt;/li&gt;
+&lt;li&gt;允许学生做自己的事情不听课，但是希望大家准时到课，不要迟到。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业考核&#34;&gt;作业考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;部分章节ppt后会有问答形式的课后题，在ppt中可以找到答案。&lt;/li&gt;
+&lt;li&gt;期末大作业开学时布置，题目二选一：1.设计思考类论文，2.鼓励动手实践完成一些仿真实验。要求比较宽泛，有问题可以找老师沟通。课后题和期末报告ddl都是期末考试后，但希望能通过作业有所收获的同学，建议尽早开始做。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;操作系统&#34;&gt;操作系统
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考查课/2学分&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-7&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;操作系统概念（第10版） / [美]  亚伯拉罕·西尔伯沙茨，机械工业出版社，2023年9月，ISBN：9787111732853&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-7&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;谭光：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;全英课件，中文教学，课前发ppt。有结合代码讲解和xv6实验指导书讲解。&lt;/li&gt;
+&lt;li&gt;教学平台课间扫码签到&lt;/li&gt;
+&lt;li&gt;讲课水平待补充&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业考核-1&#34;&gt;作业考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;三次大作业，包含老师自己出的题目和xv6 lab，提交实验报告。&lt;/li&gt;
+&lt;li&gt;部分xv6 lab难度大，第三次作业包含optional challenges。&lt;/li&gt;
+&lt;li&gt;老师明确：“已发现AI生成的报告，一经发现，该次作业打0分；如果期末大作业继续用AI生成，0分处理之外，当做舞弊上报学院。”并且明确严禁抄袭网络资源，会查重。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-6&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;灵活运用ai和网络资源，自行斟酌选课。&lt;/p&gt;
+&lt;p&gt;网课：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/202224425/lists/4823953?type=season&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;绿导师原谅你了的个人空间-绿导师原谅你了个人主页-哔哩哔哩视频&lt;/a&gt;：大名鼎鼎jyy。但以我们专业的前置课程想要听懂十分困难，只是给想要深入学习OS的同学一个推荐。&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/114366178/lists/1695070?type=series&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;从0开始数的个人空间-从0开始数个人主页-哔哩哔哩视频&lt;/a&gt;：有一个操作系统原理合集。很短的5个视频，可以作为概念导入了解。&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1rS4y1n7y1/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【操作系统工程】精译【MIT 公开课 MIT6.S081】_哔哩哔哩_bilibili&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有关xv6 lab：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/zzy980511/category_11740137.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MIT 6.S081_Zheyuan Zou的博客-CSDN博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yali-hzy/xv6-labs-2024/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;yali-hzy/xv6-labs-2024: MIT 6.1810 assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.miigon.net/categories/mit6-s081/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;MIT6.S081 | Miigon&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;传感器原理与应用&#34;&gt;传感器原理与应用
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;选修/考查课/2学分&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;文 / Veyme,2025.7&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;参考教材-8&#34;&gt;参考教材
+&lt;/h3&gt;&lt;p&gt;传感器原理及应用 / 吴建平，机械工业出版社，2021年7月，ISBN：978-7-111-68551-7&lt;/p&gt;
+&lt;p&gt;（上课不使用教材）&lt;/p&gt;
+&lt;h3 id=&#34;授课教师-8&#34;&gt;授课教师
+&lt;/h3&gt;&lt;p&gt;王本斐：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前半学期讲理论，老师比较专业认真，但是不听也没关系，不考察&lt;/li&gt;
+&lt;li&gt;会扫码签到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;作业考核-2&#34;&gt;作业考核
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;五次实验报告，期末考核大作业是自己设计集成各种传感器的电路&lt;/li&gt;
+&lt;li&gt;下半学期开始做传感器的实验，用的Arduino，代码接线都能参考Arduino配套书籍，不需要前置理论知识，都很简单&lt;/li&gt;
+&lt;li&gt;期末大作业格式要求会高一点，以论文的形式提交，设计可参考网络资料&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;学习建议-7&#34;&gt;学习建议
+&lt;/h3&gt;&lt;p&gt;课程学习比较轻松，可以对各个传感器的原理有一个比较基础的了解，建议选来玩玩。&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>归档</title>

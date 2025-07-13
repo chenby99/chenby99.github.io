@@ -337,38 +337,54 @@
 <p><a class="link" href="https://www.bilibili.com/video/BV1gf9GY8Eyz/?spm_id_from=333.1387.homepage.video_card.click&amp;vd_source=eb10175b446fe7739754f18d9bb58a40"  target="_blank" rel="noopener"
     >【露说xv6】Lab2-Basic and Optional（985男大的初学案例分享）_哔哩哔哩_bilibili</a></p></blockquote>
 <h2 id="using-gdb">Using gdb
-</h2><p><img src="/index.assets%5cmake_qemu_gdb.jpg"
-	
-	
-	
+</h2><p><img src="/p/mit6.1810lab2-system-calls/make_qemu_gdb.jpg"
+	width="1948"
+	height="198"
+	srcset="/p/mit6.1810lab2-system-calls/make_qemu_gdb_hu_fce87dc9c1c39a3d.jpg 480w, /p/mit6.1810lab2-system-calls/make_qemu_gdb_hu_16e8d2072ea0c279.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="983"
+		data-flex-basis="2361px"
 	
 ></p>
-<p><img src="/index.assets%5cmultiarch.jpg"
-	
-	
-	
+<p><img src="/p/mit6.1810lab2-system-calls/multiarch.jpg"
+	width="1776"
+	height="526"
+	srcset="/p/mit6.1810lab2-system-calls/multiarch_hu_a2df65df4f3bc49f.jpg 480w, /p/mit6.1810lab2-system-calls/multiarch_hu_637930b1128b06a6.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="337"
+		data-flex-basis="810px"
 	
 ></p>
-<p><img src="/index.assets%5cusertrap.jpg"
-	
-	
-	
+<p><img src="/p/mit6.1810lab2-system-calls/usertrap.jpg"
+	width="1428"
+	height="460"
+	srcset="/p/mit6.1810lab2-system-calls/usertrap_hu_325991ffe2d97898.jpg 480w, /p/mit6.1810lab2-system-calls/usertrap_hu_337cf96742c6b0d2.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="310"
+		data-flex-basis="745px"
 	
 ></p>
 <p><strong>Q1</strong>: Looking at the backtrace output, which function called <code>syscall</code>?</p>
 <p><strong>A1:</strong> <code>usertrap()</code>调用了<code>syscall</code></p>
-<p><img src="/index.assets%5ca7_sstatus.jpg"
-	
-	
-	
+<p><img src="/p/mit6.1810lab2-system-calls/a7_sstatus.jpg"
+	width="1922"
+	height="512"
+	srcset="/p/mit6.1810lab2-system-calls/a7_sstatus_hu_61f86473c0219a3f.jpg 480w, /p/mit6.1810lab2-system-calls/a7_sstatus_hu_d1e5ed96881a01ae.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="375"
+		data-flex-basis="900px"
 	
 ></p>
 <p><strong>Q2</strong>: What is the value of <code>p-&gt;trapframe-&gt;a7</code> and what does that  value represent?</p>
@@ -376,29 +392,37 @@
 由此可知，在<code>syscall.h</code>中找到<code>#define SYS_exec 7</code>，在 <code>user/initcode.S</code>查看：xv6 启动的第一个用户程序为<code>SYS_exec</code></p>
 <p><strong>Q3</strong>: What was the previous mode that the CPU was in?</p>
 <p><strong>A3</strong>: <code>sstatus = 0x200000022</code>，将sstatus转化为二进制表示，其中第八位为0（0表示用户态，1表示核心态），所以CPU处于用户态。</p>
-<p><img src="/index.assets%5cnum.jpg"
-	
-	
-	
+<p><img src="/p/mit6.1810lab2-system-calls/num.jpg"
+	width="1626"
+	height="360"
+	srcset="/p/mit6.1810lab2-system-calls/num_hu_dc81e2d8e6ca9b5b.jpg 480w, /p/mit6.1810lab2-system-calls/num_hu_5604829de25e0245.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="451"
+		data-flex-basis="1084px"
 	
 ></p>
-<img src="index.assets\kerneltrap.jpg" alt="kerneltrap"  />
-<p><img src="/index.assets%5clw.jpg"
-	
-	
-	
+<img src="kerneltrap.jpg" alt="kerneltrap"  />
+<p><img src="/p/mit6.1810lab2-system-calls/lw.jpg"
+	width="1730"
+	height="410"
+	srcset="/p/mit6.1810lab2-system-calls/lw_hu_5841345567d0e42b.jpg 480w, /p/mit6.1810lab2-system-calls/lw_hu_30a449d2a1e17600.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="421"
+		data-flex-basis="1012px"
 	
 ></p>
 <p><strong>Q4</strong>: Write down the assembly instruction the kernel is panicing at. Which register corresponds to the variable <code>num</code>?</p>
 <p><strong>A4</strong>:instruction: <code>lw a3,0(zero)#0&lt;entry-0x80000000&gt;</code>；register: <code>a3</code></p>
-<img src="index.assets\0-13.jpg" alt="0-13" style="zoom:50%;" />
+<img src="0-13.jpg" alt="0-13" style="zoom:50%;" />
 <p><strong>Q5</strong>: Why does the kernel crash? Hint: look at figure 3-3 in the text;  is address 0 mapped in the kernel address space?  Is that confirmed by the value in <code>scause</code> above?</p>
 <p><strong>A5:</strong> 访问0地址时超出列表出错；0地址不会被映射到空间；由输出<code>scause 0x000000000000000d</code>可知，对应RISC-V表中0/13，显示 “Load page fault&quot; 表示加载列表出现错误，相符。</p>
-<img src="index.assets\p_name_pid.jpg" alt="p_name_pid" style="zoom:50%;" />
+<img src="p_name_pid.jpg" alt="p_name_pid" style="zoom:50%;" />
 <p><strong>Q6</strong>: What is the name of the binary that was running when the kernel paniced?  What is its process id (<code>pid</code>)?</p>
 <p><strong>A6</strong>: name of the binary: <code>initcode 000\000\000\000\000\000\000'</code>；<code>pid = 1</code></p>
 <h2 id="system-call-tracing">System call tracing
@@ -504,37 +528,53 @@
 </div></li>
 <li>
 <p>测试结果</p>
-<p><img src="/index.assets%5ctest1.jpg"
-	
-	
-	
+<p><img src="/p/mit6.1810lab2-system-calls/test1.jpg"
+	width="1610"
+	height="700"
+	srcset="/p/mit6.1810lab2-system-calls/test1_hu_b40b101c7d792bc4.jpg 480w, /p/mit6.1810lab2-system-calls/test1_hu_9521b5443a22048d.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="230"
+		data-flex-basis="552px"
 	
 ></p>
-<p><img src="/index.assets%5ctest2.jpg"
-	
-	
-	
+<p><img src="/p/mit6.1810lab2-system-calls/test2.jpg"
+	width="1598"
+	height="470"
+	srcset="/p/mit6.1810lab2-system-calls/test2_hu_b3c32cf9794020c0.jpg 480w, /p/mit6.1810lab2-system-calls/test2_hu_213592350aea7ec1.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="340"
+		data-flex-basis="816px"
 	
 ></p>
 <p>&hellip;</p>
-<p><img src="/index.assets%5ctest3.jpg"
-	
-	
-	
+<p><img src="/p/mit6.1810lab2-system-calls/test3.jpg"
+	width="1572"
+	height="326"
+	srcset="/p/mit6.1810lab2-system-calls/test3_hu_fbd09e01549cca59.jpg 480w, /p/mit6.1810lab2-system-calls/test3_hu_dffda60d8e21f33e.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="482"
+		data-flex-basis="1157px"
 	
 ></p>
-<p><img src="/index.assets%5ctrace.jpg"
-	
-	
-	
+<p><img src="/p/mit6.1810lab2-system-calls/trace.jpg"
+	width="1748"
+	height="208"
+	srcset="/p/mit6.1810lab2-system-calls/trace_hu_c4e8d0047472ad54.jpg 480w, /p/mit6.1810lab2-system-calls/trace_hu_20107bda89c22c00.jpg 1024w"
 	loading="lazy"
 	
+	
+		class="gallery-image" 
+		data-flex-grow="840"
+		data-flex-basis="2016px"
 	
 ></p>
 </li>

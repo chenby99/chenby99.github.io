@@ -960,29 +960,41 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;实验结果&#34;&gt;实验结果
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250707174800225.png&#34;
-	
-	
-	
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174800225.png&#34;
+	width=&#34;1532&#34;
+	height=&#34;1200&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174800225_hu_e932c95010f4bb7a.png 480w, https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174800225_hu_eb1ab51da8948412.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;306px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250707174818608.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174818608.png&#34;
+	width=&#34;1528&#34;
+	height=&#34;876&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174818608_hu_3f7862d0f6b364b8.png 480w, https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174818608_hu_2df31d50663a7af9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;174&#34;
+		data-flex-basis=&#34;418px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&amp;hellip; &amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250707174841625.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174841625.png&#34;
+	width=&#34;1534&#34;
+	height=&#34;630&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174841625_hu_5f62d215d645d899.png 480w, https://chenby99.github.io/p/mit6.1810lab9-mmap/image-20250707174841625_hu_25f1715a65b60a35.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;243&#34;
+		data-flex-basis=&#34;584px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
@@ -1007,12 +1019,16 @@
     &gt;MIT 6.s081] Xv6 Lab9 Lockss 实验记录 | tzyt的博客&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;memory-allocator&#34;&gt;Memory allocator
 &lt;/h2&gt;&lt;p&gt;在开始实验前，&lt;code&gt;kalloctest&lt;/code&gt; 的输出：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250607201811158.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607201811158.png&#34;
+	width=&#34;1354&#34;
+	height=&#34;1310&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607201811158_hu_e39cea9aeed4bea9.png 480w, https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607201811158_hu_c280b65995905e46.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;103&#34;
+		data-flex-basis=&#34;248px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h4 id=&#34;实验任务分析&#34;&gt;实验任务分析
@@ -1282,37 +1298,53 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;测试结果&#34;&gt;测试结果
-&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250607213211143.png&#34;
-	
-	
-	
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213211143.png&#34;
+	width=&#34;1176&#34;
+	height=&#34;1342&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213211143_hu_ac3f0be488a8356b.png 480w, https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213211143_hu_30a5d99a1539e704.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;87&#34;
+		data-flex-basis=&#34;210px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250607213240281.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213240281.png&#34;
+	width=&#34;1130&#34;
+	height=&#34;400&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213240281_hu_a7ed5e45a469fc0.png 480w, https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213240281_hu_79a8af4612a243cb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;282&#34;
+		data-flex-basis=&#34;678px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&amp;hellip; &amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250607213347742.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213347742.png&#34;
+	width=&#34;1114&#34;
+	height=&#34;156&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213347742_hu_3d4a9a6d3c8f7214.png 480w, https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607213347742_hu_9f5b9e3ae16d3f7f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;714&#34;
+		data-flex-basis=&#34;1713px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250607212252938.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607212252938.png&#34;
+	width=&#34;1314&#34;
+	height=&#34;352&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607212252938_hu_3e0654207d4fc3d5.png 480w, https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250607212252938_hu_ff6b6676e3b8214e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;373&#34;
+		data-flex-basis=&#34;895px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;buffer-cache&#34;&gt;Buffer cache
@@ -1898,29 +1930,41 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;实验结果&#34;&gt;实验结果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250707143257183.png&#34;
-	
-	
-	
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707143257183.png&#34;
+	width=&#34;1576&#34;
+	height=&#34;932&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707143257183_hu_27e8968e16b90189.png 480w, https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707143257183_hu_bc595980e31e8ea6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;169&#34;
+		data-flex-basis=&#34;405px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250707160227183.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707160227183.png&#34;
+	width=&#34;1492&#34;
+	height=&#34;592&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707160227183_hu_e64b700dd499e7f0.png 480w, https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707160227183_hu_23936c6fe08d5fc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;252&#34;
+		data-flex-basis=&#34;604px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&amp;hellip; &amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250707160251724.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707160251724.png&#34;
+	width=&#34;1506&#34;
+	height=&#34;560&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707160251724_hu_75d68af37d9cd67c.png 480w, https://chenby99.github.io/p/mit6.1810lab7-lock/image-20250707160251724_hu_4f0b40fabf028af8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;268&#34;
+		data-flex-basis=&#34;645px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
@@ -2182,38 +2226,54 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;运行结果&#34;&gt;运行结果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250607193329769.png&#34;
-	
-	
-	
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250607193329769.png&#34;
+	width=&#34;1570&#34;
+	height=&#34;890&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250607193329769_hu_714f4a00a695d6aa.png 480w, https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250607193329769_hu_734677ba0720b94d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;423px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250611170037204.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250611170037204.png&#34;
+	width=&#34;1498&#34;
+	height=&#34;302&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250611170037204_hu_40edfd5575bf1862.png 480w, https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250611170037204_hu_49798d984f918b1f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;496&#34;
+		data-flex-basis=&#34;1190px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250611170231968.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250611170231968.png&#34;
+	width=&#34;1474&#34;
+	height=&#34;192&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250611170231968_hu_5d96aa489c2612ef.png 480w, https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250611170231968_hu_82cc7fb28c87d60d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;767&#34;
+		data-flex-basis=&#34;1842px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;测试程序结果：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250607193458518.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250607193458518.png&#34;
+	width=&#34;1406&#34;
+	height=&#34;386&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250607193458518_hu_7c5ca297dc59d549.png 480w, https://chenby99.github.io/p/mit6.1810lab4-traps/image-20250607193458518_hu_569707048dbd7432.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;364&#34;
+		data-flex-basis=&#34;874px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
@@ -2372,22 +2432,30 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;运行结果&#34;&gt;运行结果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250608203309637.png&#34;
-	
-	
-	
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608203309637.png&#34;
+	width=&#34;1324&#34;
+	height=&#34;586&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608203309637_hu_60628f99f806e7a2.png 480w, https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608203309637_hu_dc361cb4ba1bb746.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;225&#34;
+		data-flex-basis=&#34;542px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;回答问题&#34;&gt;回答问题
 &lt;/h3&gt;&lt;p&gt;示例输出：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250608203914189.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608203914189.png&#34;
+	width=&#34;1536&#34;
+	height=&#34;421&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608203914189_hu_130b5dde2727879a.png 480w, https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608203914189_hu_b6e0f2af0513d665.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;364&#34;
+		data-flex-basis=&#34;875px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;问题1：为什么第一对括号为空？32618在物理内存的什么位置，为什么不从低地址开始？结合源代码内容进行解释。&lt;/strong&gt;&lt;/p&gt;
@@ -2459,12 +2527,16 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;该页表项具有 R（读）、W（写）、X（执行）以及 U（用户模式可访问）权限标志位。根据其虚拟地址&lt;code&gt;va 0x0000000000000000&lt;/code&gt;，并参考xv6地址空间中的用户部分分配可知为用户代码页。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cf2-3.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab3-page-tables/f2-3.png&#34;
+	width=&#34;832&#34;
+	height=&#34;518&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab3-page-tables/f2-3_hu_5be164923cca8ac8.png 480w, https://chenby99.github.io/p/mit6.1810lab3-page-tables/f2-3_hu_e611086b78107a99.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;160&#34;
+		data-flex-basis=&#34;385px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3398,12 +3470,16 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;运行结果-1&#34;&gt;运行结果
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cimage-20250608213800210.png&#34;
-	
-	
-	
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608213800210.png&#34;
+	width=&#34;1320&#34;
+	height=&#34;182&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608213800210_hu_3e4b81505e6cf1dc.png 480w, https://chenby99.github.io/p/mit6.1810lab3-page-tables/image-20250608213800210_hu_82b400c1256133fc.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;725&#34;
+		data-flex-basis=&#34;1740px&#34;
 	
 &gt;&lt;/p&gt;
 </description>
@@ -3425,38 +3501,54 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1gf9GY8Eyz/?spm_id_from=333.1387.homepage.video_card.click&amp;amp;vd_source=eb10175b446fe7739754f18d9bb58a40&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;【露说xv6】Lab2-Basic and Optional（985男大的初学案例分享）_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;using-gdb&#34;&gt;Using gdb
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cmake_qemu_gdb.jpg&#34;
-	
-	
-	
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/make_qemu_gdb.jpg&#34;
+	width=&#34;1948&#34;
+	height=&#34;198&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/make_qemu_gdb_hu_fce87dc9c1c39a3d.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/make_qemu_gdb_hu_16e8d2072ea0c279.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;983&#34;
+		data-flex-basis=&#34;2361px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cmultiarch.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/multiarch.jpg&#34;
+	width=&#34;1776&#34;
+	height=&#34;526&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/multiarch_hu_a2df65df4f3bc49f.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/multiarch_hu_637930b1128b06a6.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;337&#34;
+		data-flex-basis=&#34;810px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cusertrap.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/usertrap.jpg&#34;
+	width=&#34;1428&#34;
+	height=&#34;460&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/usertrap_hu_325991ffe2d97898.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/usertrap_hu_337cf96742c6b0d2.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;310&#34;
+		data-flex-basis=&#34;745px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Q1&lt;/strong&gt;: Looking at the backtrace output, which function called &lt;code&gt;syscall&lt;/code&gt;?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A1:&lt;/strong&gt; &lt;code&gt;usertrap()&lt;/code&gt;调用了&lt;code&gt;syscall&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5ca7_sstatus.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/a7_sstatus.jpg&#34;
+	width=&#34;1922&#34;
+	height=&#34;512&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/a7_sstatus_hu_61f86473c0219a3f.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/a7_sstatus_hu_d1e5ed96881a01ae.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;375&#34;
+		data-flex-basis=&#34;900px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Q2&lt;/strong&gt;: What is the value of &lt;code&gt;p-&amp;gt;trapframe-&amp;gt;a7&lt;/code&gt; and what does that  value represent?&lt;/p&gt;
@@ -3464,29 +3556,37 @@
 由此可知，在&lt;code&gt;syscall.h&lt;/code&gt;中找到&lt;code&gt;#define SYS_exec 7&lt;/code&gt;，在 &lt;code&gt;user/initcode.S&lt;/code&gt;查看：xv6 启动的第一个用户程序为&lt;code&gt;SYS_exec&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Q3&lt;/strong&gt;: What was the previous mode that the CPU was in?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A3&lt;/strong&gt;: &lt;code&gt;sstatus = 0x200000022&lt;/code&gt;，将sstatus转化为二进制表示，其中第八位为0（0表示用户态，1表示核心态），所以CPU处于用户态。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cnum.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/num.jpg&#34;
+	width=&#34;1626&#34;
+	height=&#34;360&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/num_hu_dc81e2d8e6ca9b5b.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/num_hu_5604829de25e0245.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;451&#34;
+		data-flex-basis=&#34;1084px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;img src=&#34;index.assets\kerneltrap.jpg&#34; alt=&#34;kerneltrap&#34;  /&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5clw.jpg&#34;
-	
-	
-	
+&lt;img src=&#34;kerneltrap.jpg&#34; alt=&#34;kerneltrap&#34;  /&gt;
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/lw.jpg&#34;
+	width=&#34;1730&#34;
+	height=&#34;410&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/lw_hu_5841345567d0e42b.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/lw_hu_30a449d2a1e17600.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;421&#34;
+		data-flex-basis=&#34;1012px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Q4&lt;/strong&gt;: Write down the assembly instruction the kernel is panicing at. Which register corresponds to the variable &lt;code&gt;num&lt;/code&gt;?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A4&lt;/strong&gt;:instruction: &lt;code&gt;lw a3,0(zero)#0&amp;lt;entry-0x80000000&amp;gt;&lt;/code&gt;；register: &lt;code&gt;a3&lt;/code&gt;&lt;/p&gt;
-&lt;img src=&#34;index.assets\0-13.jpg&#34; alt=&#34;0-13&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;img src=&#34;0-13.jpg&#34; alt=&#34;0-13&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Q5&lt;/strong&gt;: Why does the kernel crash? Hint: look at figure 3-3 in the text;  is address 0 mapped in the kernel address space?  Is that confirmed by the value in &lt;code&gt;scause&lt;/code&gt; above?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A5:&lt;/strong&gt; 访问0地址时超出列表出错；0地址不会被映射到空间；由输出&lt;code&gt;scause 0x000000000000000d&lt;/code&gt;可知，对应RISC-V表中0/13，显示 “Load page fault&amp;quot; 表示加载列表出现错误，相符。&lt;/p&gt;
-&lt;img src=&#34;index.assets\p_name_pid.jpg&#34; alt=&#34;p_name_pid&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;img src=&#34;p_name_pid.jpg&#34; alt=&#34;p_name_pid&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;Q6&lt;/strong&gt;: What is the name of the binary that was running when the kernel paniced?  What is its process id (&lt;code&gt;pid&lt;/code&gt;)?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A6&lt;/strong&gt;: name of the binary: &lt;code&gt;initcode 000\000\000\000\000\000\000&#39;&lt;/code&gt;；&lt;code&gt;pid = 1&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;system-call-tracing&#34;&gt;System call tracing
@@ -3592,37 +3692,53 @@
 &lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;测试结果&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5ctest1.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/test1.jpg&#34;
+	width=&#34;1610&#34;
+	height=&#34;700&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/test1_hu_b40b101c7d792bc4.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/test1_hu_9521b5443a22048d.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;230&#34;
+		data-flex-basis=&#34;552px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5ctest2.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/test2.jpg&#34;
+	width=&#34;1598&#34;
+	height=&#34;470&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/test2_hu_b3c32cf9794020c0.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/test2_hu_213592350aea7ec1.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;340&#34;
+		data-flex-basis=&#34;816px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5ctest3.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/test3.jpg&#34;
+	width=&#34;1572&#34;
+	height=&#34;326&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/test3_hu_fbd09e01549cca59.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/test3_hu_dffda60d8e21f33e.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;482&#34;
+		data-flex-basis=&#34;1157px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5ctrace.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/trace.jpg&#34;
+	width=&#34;1748&#34;
+	height=&#34;208&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab2-system-calls/trace_hu_c4e8d0047472ad54.jpg 480w, https://chenby99.github.io/p/mit6.1810lab2-system-calls/trace_hu_20107bda89c22c00.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;840&#34;
+		data-flex-basis=&#34;2016px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -3758,12 +3874,16 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// ./grade-lab-util sleep
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5csleep.jpg&#34;
-	
-	
-	
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/sleep.jpg&#34;
+	width=&#34;1870&#34;
+	height=&#34;178&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/sleep_hu_c7a4462088aa13ae.jpg 480w, https://chenby99.github.io/p/mit6.1810lab1-utilities/sleep_hu_5bef7a50c0964f4b.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1050&#34;
+		data-flex-basis=&#34;2521px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;pingpong&#34;&gt;pingpong
@@ -3913,20 +4033,28 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5ctest4.jpg&#34;
-	
-	
-	
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/test4.jpg&#34;
+	width=&#34;1154&#34;
+	height=&#34;310&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/test4_hu_cf963981a4daf20f.jpg 480w, https://chenby99.github.io/p/mit6.1810lab1-utilities/test4_hu_c13274f491421357.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;372&#34;
+		data-flex-basis=&#34;893px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cpingpong.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/pingpong.jpg&#34;
+	width=&#34;1824&#34;
+	height=&#34;110&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/pingpong_hu_5a2e86e5dc8c5ea9.jpg 480w, https://chenby99.github.io/p/mit6.1810lab1-utilities/pingpong_hu_daa1c6617c32a11.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1658&#34;
+		data-flex-basis=&#34;3979px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;find&#34;&gt;find
@@ -4142,20 +4270,28 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5ctest5.jpg&#34;
-	
-	
-	
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/test5.jpg&#34;
+	width=&#34;1540&#34;
+	height=&#34;520&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/test5_hu_cba7493530f49e78.jpg 480w, https://chenby99.github.io/p/mit6.1810lab1-utilities/test5_hu_83320c8c767ced15.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;296&#34;
+		data-flex-basis=&#34;710px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/index.assets%5cfind.jpg&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/find.jpg&#34;
+	width=&#34;1908&#34;
+	height=&#34;140&#34;
+	srcset=&#34;https://chenby99.github.io/p/mit6.1810lab1-utilities/find_hu_2d767100cfbb70ec.jpg 480w, https://chenby99.github.io/p/mit6.1810lab1-utilities/find_hu_a01f778421fb22ad.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1362&#34;
+		data-flex-basis=&#34;3270px&#34;
 	
 &gt;&lt;/p&gt;
 </description>

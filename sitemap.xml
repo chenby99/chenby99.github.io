@@ -1,59 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://chenby99.github.io/</loc>
-    <lastmod>2025-07-11T22:09:26+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/categories/</loc>
-    <lastmod>2025-07-11T22:09:26+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/post/</loc>
-    <lastmod>2025-07-11T22:09:26+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/p/%E5%A4%A7%E4%BA%8C%E7%A7%8B%E5%AD%A3%E8%AF%BE%E7%A8%8Btips/</loc>
-    <lastmod>2025-07-11T22:09:26+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/categories/%E6%99%BA%E7%A7%91%E8%AF%BE%E7%A8%8B%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2025-07-11T22:09:26+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/p/mit6.1810lab9-mmap/</loc>
-    <lastmod>2025-07-11T21:03:27+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/categories/xv6-lab/</loc>
-    <lastmod>2025-07-11T21:03:27+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/p/mit6.1810lab7-lock/</loc>
-    <lastmod>2025-07-11T20:53:48+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/p/mit6.1810lab4-traps/</loc>
-    <lastmod>2025-07-11T20:44:33+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/p/mit6.1810lab3-page-tables/</loc>
-    <lastmod>2025-07-11T20:23:24+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/p/mit6.1810lab2-system-calls/</loc>
-    <lastmod>2025-07-11T20:08:07+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/p/mit6.1810lab1-utilities/</loc>
-    <lastmod>2025-07-11T19:55:22+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/p/%E5%A4%A7%E4%BA%8C%E6%98%A5%E5%AD%A3%E8%AF%BE%E7%A8%8Btips/</loc>
-    <lastmod>2025-07-11T17:31:15+08:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/page/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/%E5%85%B3%E4%BA%8E/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chenby99.github.io/links/</loc>
-  </url><url>
-    <loc>https://chenby99.github.io/tags/</loc>
-  </url><url>
-    <loc>https://chenby99.github.io/search/</loc>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://chenby99.github.io/</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/%E5%85%B3%E4%BA%8E</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/archives</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/search</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/links</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/categories/xv6-lab</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/categories/%E6%99%BA%E7%A7%91%E8%AF%BE%E7%A8%8B%E6%8C%87%E5%8D%97</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/p/%E5%A4%A7%E4%BA%8C%E7%A7%8B%E5%AD%A3%E8%AF%BE%E7%A8%8Btips</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/p/mit6.1810lab9-mmap</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/p/mit6.1810lab7-lock</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/p/mit6.1810lab4-traps</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/p/mit6.1810lab3-page-tables</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://chenby99.github.io/page/2</loc>
+ <priority>0.3</priority>
+ <lastmod>2025-09-21</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
 </urlset>
